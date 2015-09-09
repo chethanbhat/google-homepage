@@ -1,0 +1,224 @@
+body {
+
+margin:none;
+padding:none;
+overflow:hidden;
+
+}
+
+
+.header {
+
+height: 100px;
+width:100%;
+
+}
+
+
+
+.header  li {
+
+list-style:none;
+
+}
+
+.header li  {
+
+position:relative;
+display: inline-block;
+
+
+}
+
+.header ul {
+
+float:right;
+
+}
+
+.header li a {
+
+padding: 10px;
+position:relative;
+top:-19px;
+text-decoration:none;	
+color:#737373;
+font-family:arial;
+font-weight:500;
+
+}
+
+.header li a:hover {
+
+text-decoration:underline;
+	
+}
+
+.header li img {
+
+
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.logo {
+height: 200px;
+position:relative;
+}
+
+.logoimg {
+
+width:500px;
+height: 150px;
+position:relative;
+top:25px;
+left:32%;
+
+}
+
+.logoimg img {
+
+position: relative;
+width:300px;
+top:5px;
+left:25%;
+padding:0px;
+margin:0px;
+}
+
+.searchbox {
+position:relative;
+height:200px;
+
+}
+
+#search {
+
+position:relative;
+left:35%;
+width:500px;
+height:30px;
+background: white url(../img/voice.png) right center no-repeat;
+font-size:16px;
+font-family:arial;
+font-weight:400;
+
+}
+
+#voice {
+z-index:5;
+}
+
+.searchbuttons {
+
+width:400px;
+height:100px;
+position: relative;
+top: 20px;
+left:40%;
+
+
+}
+
+#gsearch {
+margin-right:30px;
+width:150px;
+height:30px;
+border:none;
+font-family:arial;
+font-size:1em;
+font-weight:600;
+padding:5px;
+background-color:#F7F7F7;
+color:#737373;
+
+}
+
+#glucky {
+
+margin-left:30px;
+width:150px;
+height:30px;
+border:none;
+font-family:arial;
+font-size:1em;
+font-weight:600;
+padding:5px;
+background-color:#F7F7F7;
+color:#737373;
+
+}
+
+.footer {
+
+position:absolute;
+height: 50px;
+width:100%;
+bottom:0px;
+background-color:#F2F2F2;
+
+}
+
+.lfooter ul {
+
+float:left;
+
+}
+
+.rfooter ul {
+
+float:right;
+margin-right:30px;
+}
+
+
+.lfooter li {
+
+list-style:none;
+position:relative;
+display: inline-block;
+
+}
+
+.rfooter li {
+
+list-style:none;
+position:relative;
+display: inline-block;
+
+}
+
+
+.lfooter li a {
+
+padding: 10px;
+text-decoration:none;
+color:#737373;
+font-family:arial;
+font-weight:600;
+
+}
+
+.lfooter li a:hover {
+
+text-decoration:underline;
+	
+}
+
+.rfooter li a {
+
+padding: 10px;
+text-decoration:none;
+color:#737373;
+font-family:arial;
+font-weight:600;
+
+}
+
+.rfooter li a:hover {
+
+text-decoration:underline;
+	
+}
